@@ -1,0 +1,10 @@
+-- EXERCICE 2
+-- On combat une créature qui as 20 PV.
+-- Le joueur à 3 tours pour tuer la créature (Le nombre de tour restant est afficher au début du tour)
+-- On demande quelle action le joueur veut faire avec io.read()
+-- Les deux actions qui existe sont:
+-- * "SLASH": divise les point de vie de la créature en deux.
+-- * "FIREBALL": la créature perds 5 PV.
+-- Si l'action est invalide on considère que le joueur ne fait rien.
+-- Si la créature atteints 0 pv le joueur à gagné, sinon il as perdu.
+-- Affiche les PVs de la créature à la fin du tour.
